@@ -342,3 +342,6 @@ LogInit: Object subsystem initialized
 [2018.08.08-21.43.54:340][597]BlueprintLog: New page: Compile ServerMenu
 [2018.08.08-21.43.54:850][644]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/MainMenu/ServerMenu" FILE="../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/UI/MainMenu/ServerMenu.uasset" SILENT=true
 [2018.08.08-21.43.54:889][644]LogSavePackage: Moving '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/ServerMenu25FF21E0443C5A22F71619B95BCC4D5D.tmp' to '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/UI/MainMenu/ServerMenu.uasset'
+[2018.08.08-21.46.40:315][707]LogRenderer: Reallocating scene render targets to support 1208x552 Format 10 NumSamples 1 (Frame:5425).
+[2018.08.08-21.47.03:288][461]LogEditorViewport: Clicking Background
+[2018.08.08-21.47.29:811][643]LogSlate: FSceneViewport::OnFocusLost() reason 0
