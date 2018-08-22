@@ -1,0 +1,883 @@
+﻿Log file open, 08/21/18 12:15:33
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: CS205
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.259047
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +12:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.071s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogModuleManager: Warning: ModuleManager: Unable to load module 'OnlineSubsystemSteam'  - 0 instances of that module name found.
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4233996
+LogInit: Engine Version: 4.20.1-4233996+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Jul 26 2018 10:07:30
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.08.21-00.15.33:698][  0]LogInit: Selected Device Profile: [Windows]
+[2018.08.21-00.15.33:698][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.08.21-00.15.33:705][  0]LogHAL: Display: Platform has ~ 16 GB [17136259072 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.08.21-00.15.33:705][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.08.21-00.15.33:706][  0]LogInit: Going up to parent DeviceProfile []
+[2018.08.21-00.15.33:706][  0]LogInit: Computer: A02065
+[2018.08.21-00.15.33:706][  0]LogInit: User: ames
+[2018.08.21-00.15.33:706][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.08.21-00.15.33:706][  0]LogInit: High frequency timer resolution =3.515630 MHz
+[2018.08.21-00.15.33:706][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.08.21-00.15.33:706][  0]LogMemory: Platform Memory Stats for Windows
+[2018.08.21-00.15.33:706][  0]LogMemory: Process Physical Memory: 100.23 MB used, 100.23 MB peak
+[2018.08.21-00.15.33:706][  0]LogMemory: Process Virtual Memory: 89.20 MB used, 89.20 MB peak
+[2018.08.21-00.15.33:706][  0]LogMemory: Physical Memory: 3517.93 MB used,  12824.48 MB free, 16342.41 MB total
+[2018.08.21-00.15.33:706][  0]LogMemory: Virtual Memory: 4638.59 MB used,  12824.48 MB free, 134217728.00 MB total
+[2018.08.21-00.15.33:722][  0]LogInit: Using OS detected language (en-US).
+[2018.08.21-00.15.33:722][  0]LogInit: Using OS detected locale (en-NZ).
+[2018.08.21-00.15.33:722][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.08.21-00.15.34:007][  0]LogStreaming: Display: Took  0.286s to InitEngineTextLocalization.
+[2018.08.21-00.15.34:007][  0]LogInit: Setting process to per monitor DPI aware
+[2018.08.21-00.15.34:039][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.08.21-00.15.34:039][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.08.21-00.15.34:408][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.08.21-00.15.34:408][  0]LogD3D11RHI: D3D11 adapters:
+[2018.08.21-00.15.34:456][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.08.21-00.15.34:456][  0]LogD3D11RHI:       8096/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.08.21-00.15.34:458][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.08.21-00.15.34:458][  0]LogD3D11RHI:       0/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.08.21-00.15.34:458][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.08.21-00.15.34:462][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.08.21-00.15.34:462][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.08.21-00.15.34:462][  0]LogWindows: EnumDisplayDevices:
+[2018.08.21-00.15.34:462][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2018.08.21-00.15.34:462][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.08.21-00.15.34:463][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.08.21-00.15.34:463][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.08.21-00.15.34:463][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.08.21-00.15.34:463][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.08.21-00.15.34:463][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2018.08.21-00.15.34:463][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2018.08.21-00.15.34:463][  0]LogRHI: Texture pool is 5667 MB (70% of 8096 MB)
+[2018.08.21-00.15.34:484][  0]LogD3D11RHI: Async texture creation enabled
+[2018.08.21-00.15.34:494][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.08.21-00.15.34:496][  0]LogShaderCompilers: Guid format shader working directory is -40 characters bigger than the processId version (../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Intermediate/Shaders/WorkingDirectory/6036/).
+[2018.08.21-00.15.34:496][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ames/AppData/Local/Temp/UnrealShaderWorkingDir/FAD3C2954749DB0EAF9735BC9983F6A6/'.
+[2018.08.21-00.15.34:719][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.08.21-00.15.34:729][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.08.21-00.15.34:739][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.08.21-00.15.34:750][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.08.21-00.15.34:761][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.08.21-00.15.34:772][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.08.21-00.15.34:782][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.08.21-00.15.34:793][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.08.21-00.15.34:798][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.08.21-00.15.34:857][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.21-00.15.34:857][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.21-00.15.34:857][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.21-00.15.34:857][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.21-00.15.34:857][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.21-00.15.34:857][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.21-00.15.34:857][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.21-00.15.34:857][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.21-00.15.34:857][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.21-00.15.34:857][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.21-00.15.34:857][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.21-00.15.34:857][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.21-00.15.34:857][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.21-00.15.34:857][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.21-00.15.34:858][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.21-00.15.34:858][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.21-00.15.34:858][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.21-00.15.34:858][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.21-00.15.34:858][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.08.21-00.15.34:914][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.08.21-00.15.34:914][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.08.21-00.15.34:933][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.08.21-00.15.34:933][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.08.21-00.15.34:942][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.08.21-00.15.34:952][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.08.21-00.15.34:962][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.08.21-00.15.34:973][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.08.21-00.15.34:981][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.08.21-00.15.34:981][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.08.21-00.15.35:024][  0]LogXGEController: Cleaning working directory: C:/Users/ames/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.08.21-00.15.35:024][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.08.21-00.15.35:024][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.08.21-00.15.35:024][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.08.21-00.15.35:606][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.08.21-00.15.35:649][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/ames/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.08.21-00.15.35:649][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ames/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.08.21-00.15.35:649][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.08.21-00.15.35:649][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.08.21-00.15.35:649][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.08.21-00.15.35:649][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.08.21-00.15.35:659][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.08.21-00.15.35:672][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ames/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.08.21-00.15.35:672][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.08.21-00.15.35:672][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.08.21-00.15.35:686][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.08.21-00.15.35:687][  0]LogSlate: Using FreeType 2.6.0
+[2018.08.21-00.15.35:689][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.08.21-00.15.35:805][  0]LogAssetRegistry: FAssetRegistry took 0.0255 seconds to start up
+[2018.08.21-00.15.36:039][  0]LogInit: Selected Device Profile: [Windows]
+[2018.08.21-00.15.36:145][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.08.21-00.15.36:148][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.08.21-00.15.36:148][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.08.21-00.15.36:148][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.08.21-00.15.36:148][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.08.21-00.15.36:162][  0]LogNetVersion: CS205 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3832072326)
+[2018.08.21-00.15.36:574][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.074242 seconds
+[2018.08.21-00.15.36:579][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.08.21-00.15.36:579][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.08.21-00.15.36:579][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.08.21-00.15.37:823][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.08.21-00.15.37:835][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.08.21-00.15.37:970][  0]SourceControl: Source control is disabled
+[2018.08.21-00.15.38:344][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.08.21-00.15.38:403][  0]LogOcInput: OculusInput pre-init called
+[2018.08.21-00.15.38:455][  0]LogEngine: Initializing Engine...
+[2018.08.21-00.15.38:456][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.08.21-00.15.38:457][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.08.21-00.15.38:457][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.08.21-00.15.38:457][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.08.21-00.15.38:457][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.08.21-00.15.38:634][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.08.21-00.15.38:644][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.08.21-00.15.38:658][  0]LogInit: XAudio2 using 'Headset Earphone (2- SteelSeries Arctis 7 Chat)' : 1 channels at 48 kHz using 16 bits per sample (channel mask 0x0)
+[2018.08.21-00.15.38:678][  0]LogInit: FAudioDevice initialized.
+[2018.08.21-00.15.38:678][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.08.21-00.15.38:731][  0]LogDerivedDataCache: Saved boot cache 0.05s 71MB C:/Users/ames/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.08.21-00.15.38:739][  0]LogInit: Texture streaming: Enabled
+[2018.08.21-00.15.38:751][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.08.21-00.15.38:758][  0]LogInit: Transaction tracking system initialized
+[2018.08.21-00.15.38:772][  0]BlueprintLog: New page: Editor Load
+[2018.08.21-00.15.38:825][  0]LocalizationService: Localization service is disabled
+[2018.08.21-00.15.39:250][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.08.21-00.15.39:250][  0]LogCook: Display: Mobile HDR setting 1
+[2018.08.21-00.15.39:250][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.08.21-00.15.39:250][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.08.21-00.15.39:250][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.08.21-00.15.39:250][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.08.21-00.15.39:250][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.08.21-00.15.39:348][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/' took 0.01s
+[2018.08.21-00.15.39:348][  0]Cmd: MAP LOAD FILE="../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/Map/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.08.21-00.15.39:348][  0]LightingResults: New page: Lighting Build
+[2018.08.21-00.15.39:350][  0]MapCheck: New page: Map Check
+[2018.08.21-00.15.39:350][  0]LightingResults: New page: Lighting Build
+[2018.08.21-00.15.39:418][  0]LogProperty: Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/UI/MainMenu/OptionsMenu.OptionsMenu_C:PlayerInfo'. Unknown structure.
+[2018.08.21-00.15.39:432][  0]LogClass: Warning: Property PlayerInfo of PlayerInfo has a struct type mismatch (tag STRUCT_REINST_PlayerInfo_0 != prop FallbackStruct) in package:  ../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/UI/MainMenu/OptionsMenu.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2018.08.21-00.15.39:489][  0]LogClass: Warning: Property PlayerInfo of PlayerInfo has a struct type mismatch (tag FallbackStruct != prop PlayerInfo) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2018.08.21-00.15.39:587][  0]LogAIModule: Creating AISystem for world MainMenu
+[2018.08.21-00.15.39:588][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.08.21-00.15.39:608][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.08.21-00.15.39:696][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 87.971ms to complete.
+[2018.08.21-00.15.39:696][  0]LogFileHelpers: Loading map 'MainMenu' took 0.349
+[2018.08.21-00.15.39:784][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.21-00.15.39:791][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.21-00.15.39:799][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.21-00.15.39:805][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.21-00.15.39:811][  0]LogCollectionManager: Loaded 0 collections in 0.001194 seconds
+[2018.08.21-00.15.39:854][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/Collections/' took 0.01s
+[2018.08.21-00.15.39:854][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/Developers/ames/Collections/' took 0.01s
+[2018.08.21-00.15.39:854][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/Collections/' took 0.01s
+[2018.08.21-00.15.39:854][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.08.21-00.15.39:864][  0]LogContentBrowser: Native class hierarchy populated in 0.0098 seconds. Added 2572 classes and 603 folders.
+[2018.08.21-00.15.39:872][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.08.21-00.15.39:922][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.08.21-00.15.39:926][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.08.21-00.15.39:975][  0]LogSlate: Took 0.000854 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.08.21-00.15.39:977][  0]LogSlate: Took 0.000713 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.08.21-00.15.39:983][  0]LogSlate: Took 0.001181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.08.21-00.15.40:046][  0]LogRenderer: Reallocating scene render targets to support 1208x552 Format 10 NumSamples 1 (Frame:1).
+[2018.08.21-00.15.40:143][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.08.21-00.15.40:144][  0]LogLoad: (Engine Initialization) Total time: 7.68 seconds
+[2018.08.21-00.15.40:144][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.08.21-00.15.40:154][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.08.21-00.15.40:172][  0]LogAssetRegistry: Asset discovery search completed in 4.3895 seconds
+[2018.08.21-00.15.40:173][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.08.21-00.15.40:173][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000039 seconds (updated 0 objects)
+[2018.08.21-00.15.40:175][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2018.08.21-00.15.40:200][  0]LogSlate: Took 0.000518 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.08.21-00.15.48:218][954]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.21-00.15.51:487][344]LogSlate: Took 0.000230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.08.21-00.15.51:493][344]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/Lobby/LobbyMenu.LobbyMenu
+[2018.08.21-00.15.51:836][344]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2018.08.21-00.15.52:426][344]LogSlate: Took 0.000560 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.08.21-00.15.53:885][514]LogSlate: Took 0.001878 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.08.21-00.17.07:400][410]BlueprintLog: New page: Compile LobbyMenu
+[2018.08.21-00.17.08:293][502]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/UI/Lobby/LobbyMenu.uasset" SILENT=true
+[2018.08.21-00.17.08:314][502]LogSavePackage: Moving '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/LobbyMenu0E7F65D544C6F3566E54F5B7C2713305.tmp' to '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/UI/Lobby/LobbyMenu.uasset'
+[2018.08.21-00.17.32:601][378]BlueprintLog: New page: Compile LobbyMenu
+[2018.08.21-00.19.54:067][645]BlueprintLog: New page: Compile LobbyMenu
+[2018.08.21-00.19.54:574][693]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/UI/Lobby/LobbyMenu.uasset" SILENT=true
+[2018.08.21-00.19.54:598][693]LogSavePackage: Moving '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/LobbyMenuAE8CDB9D421A67573D2AFEA391E7BEB4.tmp' to '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/UI/Lobby/LobbyMenu.uasset'
+[2018.08.21-00.20.18:586][566]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Lobby/LobbyGM.LobbyGM
+[2018.08.21-00.20.18:919][567]LogSlate: Took 0.000538 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.08.21-00.22.04:614][209]BlueprintLog: New page: Compile LobbyGM
+[2018.08.21-00.22.05:136][247]LogSavePackage: Moving '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/LobbyGMF216BCAF4DC7B980DD5F3F83F54BA2E2.tmp' to '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/Blueprints/Lobby/LobbyGM.uasset'
+[2018.08.21-00.22.12:768][152]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/Lobby/ConnectedPlayer.ConnectedPlayer
+[2018.08.21-00.22.14:662][287]LogSlate: Window 'ConnectedPlayer' being destroyed
+[2018.08.21-00.24.08:986][207]LogSlate: Took 0.001867 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.08.21-00.24.32:498][ 22]BlueprintLog: New page: Compile ConnectedPlayer
+[2018.08.21-00.24.33:040][ 74]LogSavePackage: Moving '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/ConnectedPlayer5F06FE6A4CB830BCA20A08BD4CEB5420.tmp' to '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/UI/Lobby/ConnectedPlayer.uasset'
+[2018.08.21-00.25.56:614][221]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Lobby/LobbyPC.LobbyPC
+[2018.08.21-00.25.58:903][452]LogSlate: Window 'LobbyPC' being destroyed
+[2018.08.21-00.26.31:164][577]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/MainMenu' took 0.031
+[2018.08.21-00.26.31:166][577]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Lobby/LobbyMenu] ([1] browsable assets)...
+[2018.08.21-00.26.31:166][577]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Lobby/LobbyMenu]
+[2018.08.21-00.26.31:196][577]LogSavePackage: Moving '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/LobbyMenu_Auto14972C30E4E6AAE2E81C368A4FB6390D5.tmp' to '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto1.uasset'
+[2018.08.21-00.26.31:197][577]LogFileHelpers: Auto-saving content packages took 0.032
+[2018.08.21-00.58.04:940][419]BlueprintLog: New page: Compile LobbyPC
+[2018.08.21-00.58.05:474][448]LogSavePackage: Moving '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/LobbyPCF5A40EB9472DC313EAA25CA1B7649201.tmp' to '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/Blueprints/Lobby/LobbyPC.uasset'
+[2018.08.21-00.58.24:543][590]BlueprintLog: New page: Compile LobbyMenu
+[2018.08.21-00.58.25:016][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/UI/Lobby/LobbyMenu.uasset" SILENT=true
+[2018.08.21-00.58.25:041][633]LogSavePackage: Moving '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/LobbyMenuB7DDBEB34C927247D306E888A67D6C73.tmp' to '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/UI/Lobby/LobbyMenu.uasset'
+[2018.08.21-00.58.51:834][252]LogHttp: Warning: 000002310D1CB880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.08.21-00.58.51:834][252]LogHttp: Warning: 000002310D1CB880: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x23116ed7fa0 [can pipeline])
+[2018.08.21-00.58.51:834][252]LogHttp: Warning: 000002310D1CB880: libcurl info message cache 1 (Re-using existing connection! (#19) with host datarouter.ol.epicgames.com)
+[2018.08.21-00.58.51:834][252]LogHttp: Warning: 000002310D1CB880: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.3.98.22) port 443 (#19))
+[2018.08.21-00.58.51:834][252]LogHttp: Warning: 000002310D1CB880: libcurl info message cache 3 (upload completely sent off: 1715 out of 1715 bytes)
+[2018.08.21-00.58.51:834][252]LogHttp: Warning: 000002310D1CB880: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2018.08.21-00.58.51:834][252]LogHttp: Warning: 000002310D1CB880: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2018.08.21-00.58.51:834][252]LogHttp: Warning: 000002310D1CB880: libcurl info message cache 6 (Closing connection 19)
+[2018.08.21-00.58.51:834][252]LogHttp: Warning: 000002310D1CB880: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2018.08.21-00.58.51:834][252]LogHttp: Warning: 000002310D1CB880: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8355CBD8-4FAB-6454-C799-089D6FDD68A2%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.1-4233996%2B%2B%2BUE4%2BRelease-4.20&UserID=bfb86c0144cdfa8d48051e819cefa2ad%7Cbc15334574d94df5ba3f8e153b4c9d6c%7C6ee1bc56-865b-4470-b12f-446bfea6588d&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2018.08.21-00.58.51:834][252]LogHttp: Warning: 000002310D1CB880: libcurl info message cache 9 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.08.21-00.58.51:834][252]LogHttp: Warning: 000002310D1CB880: libcurl info message cache 10 (Closing connection 20)
+[2018.08.21-00.59.44:261][114]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/MainMenu' took 0.021
+[2018.08.21-00.59.44:262][114]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Lobby/LobbyMenu] ([1] browsable assets)...
+[2018.08.21-00.59.44:262][114]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Lobby/LobbyMenu]
+[2018.08.21-00.59.44:284][114]LogSavePackage: Moving '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/LobbyMenu_Auto2901F6E05494DEDB24D1C0AA503072FA8.tmp' to '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto2.uasset'
+[2018.08.21-00.59.44:285][114]LogFileHelpers: Auto-saving content packages took 0.024
+[2018.08.21-01.00.16:518][159]LogSlate: Window 'Change Variable Type' being destroyed
+[2018.08.21-01.03.29:797][899]BlueprintLog: New page: Compile LobbyMenu
+[2018.08.21-01.03.29:809][899]LogBlueprint: Warning: [Compiler LobbyMenu] Input pin  My Player Image  specifying non-default value no longer exists on node  Set members in PlayerInfo . Please refresh node or reset pin to default value to remove pin.
+[2018.08.21-01.03.29:848][899]LogBlueprint: Warning: [Compiler LobbyMenu] [2877.31] Compile of LobbyMenu successful, but with 1 Warning(s) [in 50 ms] (/Game/UI/Lobby/LobbyMenu.LobbyMenu)
+[2018.08.21-01.03.30:390][954]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/UI/Lobby/LobbyMenu.uasset" SILENT=true
+[2018.08.21-01.03.30:422][954]LogSavePackage: Moving '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/LobbyMenu59FE4A564491D6CD499034A1EABACECC.tmp' to '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/UI/Lobby/LobbyMenu.uasset'
+[2018.08.21-01.06.45:718][424]BlueprintLog: New page: Compile LobbyMenu
+[2018.08.21-01.06.45:732][424]LogBlueprint: Warning: [Compiler LobbyMenu] Input pin  My Player Image  specifying non-default value no longer exists on node  Set members in PlayerInfo . Please refresh node or reset pin to default value to remove pin.
+[2018.08.21-01.06.45:777][424]LogBlueprint: Warning: [Compiler LobbyMenu] [3073.24] Compile of LobbyMenu successful, but with 1 Warning(s) [in 58 ms] (/Game/UI/Lobby/LobbyMenu.LobbyMenu)
+[2018.08.21-01.06.46:255][472]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/UI/Lobby/LobbyMenu.uasset" SILENT=true
+[2018.08.21-01.06.46:288][472]LogSavePackage: Moving '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/LobbyMenuDE5E8DC4435D500DC00156935AE62F8E.tmp' to '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/UI/Lobby/LobbyMenu.uasset'
+[2018.08.21-01.07.28:545][252]BlueprintLog: New page: Compile LobbyMenu
+[2018.08.21-01.07.28:568][252]LogBlueprint: Warning: [Compiler LobbyMenu] Input pin  My Player Image  specifying non-default value no longer exists on node  Set members in PlayerInfo . Please refresh node or reset pin to default value to remove pin.
+[2018.08.21-01.07.28:784][252]LogBlueprint: Warning: [Compiler LobbyMenu] [3116.25] Compile of LobbyMenu successful, but with 1 Warning(s) [in 239 ms] (/Game/UI/Lobby/LobbyMenu.LobbyMenu)
+[2018.08.21-01.07.29:246][296]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/UI/Lobby/LobbyMenu.uasset" SILENT=true
+[2018.08.21-01.07.29:278][296]LogSavePackage: Moving '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/LobbyMenu2EAEF8B946CD10915950A083795CE8FE.tmp' to '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/UI/Lobby/LobbyMenu.uasset'
+[2018.08.21-01.09.44:640][253]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/MainMenu' took 0.023
+[2018.08.21-01.09.44:642][253]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Lobby/LobbyMenu] ([1] browsable assets)...
+[2018.08.21-01.09.44:642][253]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Lobby/LobbyMenu]
+[2018.08.21-01.09.44:676][253]LogSavePackage: Moving '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/LobbyMenu_Auto3581D35CB4C4F1E315DD74AA7CFD4DE95.tmp' to '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto3.uasset'
+[2018.08.21-01.09.44:678][253]LogFileHelpers: Auto-saving content packages took 0.036
+[2018.08.21-01.11.13:952][879]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/UI/Lobby/LobbyMenu.uasset" SILENT=true
+[2018.08.21-01.11.13:986][879]LogSavePackage: Moving '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/LobbyMenu08DA690C45FE87ADE8E898890C0727D8.tmp' to '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/UI/Lobby/LobbyMenu.uasset'
+[2018.08.21-01.11.15:805][ 94]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Lobby/LobbyGM.LobbyGM
+[2018.08.21-01.11.21:617][760]BlueprintLog: New page: Compile LobbyMenu
+[2018.08.21-01.11.21:651][760]LogBlueprint: Warning: [Compiler LobbyMenu] Input pin  My Player Image  specifying non-default value no longer exists on node  Set members in PlayerInfo . Please refresh node or reset pin to default value to remove pin.
+[2018.08.21-01.11.21:702][760]LogBlueprint: Warning: [Compiler LobbyMenu] [3349.16] Compile of LobbyMenu successful, but with 1 Warning(s) [in 85 ms] (/Game/UI/Lobby/LobbyMenu.LobbyMenu)
+[2018.08.21-01.11.22:258][817]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/UI/Lobby/LobbyMenu.uasset" SILENT=true
+[2018.08.21-01.11.22:292][817]LogSavePackage: Moving '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/LobbyMenu080F21BA42B33F3437544CB3D676500E.tmp' to '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/UI/Lobby/LobbyMenu.uasset'
+[2018.08.21-01.14.52:527][421]BlueprintLog: New page: Compile LobbyGM
+[2018.08.21-01.14.53:061][457]LogSavePackage: Moving '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/LobbyGM4203FDC3443639A897D3F2B364C5FCDD.tmp' to '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/Blueprints/Lobby/LobbyGM.uasset'
+[2018.08.21-01.22.23:691][996]BlueprintLog: New page: Compile LobbyMenu
+[2018.08.21-01.22.23:724][996]LogBlueprint: Warning: [Compiler LobbyMenu] Input pin  My Player Image  specifying non-default value no longer exists on node  Set members in PlayerInfo . Please refresh node or reset pin to default value to remove pin.
+[2018.08.21-01.22.23:724][996]LogBlueprint: Warning: [Compiler LobbyMenu] Input pin  My Player Image  specifying non-default value no longer exists on node  Set members in PlayerInfo . Please refresh node or reset pin to default value to remove pin.
+[2018.08.21-01.22.23:798][996]LogBlueprint: Warning: [Compiler LobbyMenu] [4011.26] Compile of LobbyMenu successful, but with 2 Warning(s) [in 106 ms] (/Game/UI/Lobby/LobbyMenu.LobbyMenu)
+[2018.08.21-01.22.24:213][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/UI/Lobby/LobbyMenu.uasset" SILENT=true
+[2018.08.21-01.22.24:256][ 36]LogSavePackage: Moving '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/LobbyMenu672A47EB4CF58C94203714AE8D850C3F.tmp' to '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/UI/Lobby/LobbyMenu.uasset'
+[2018.08.21-01.23.00:234][570]BlueprintLog: New page: Compile LobbyMenu
+[2018.08.21-01.23.00:275][570]LogBlueprint: Warning: [Compiler LobbyMenu] Input pin  My Player Image  specifying non-default value no longer exists on node  Set members in PlayerInfo . Please refresh node or reset pin to default value to remove pin.
+[2018.08.21-01.23.00:275][570]LogBlueprint: Warning: [Compiler LobbyMenu] Input pin  My Player Image  specifying non-default value no longer exists on node  Set members in PlayerInfo . Please refresh node or reset pin to default value to remove pin.
+[2018.08.21-01.23.00:326][570]LogBlueprint: Warning: [Compiler LobbyMenu] [4047.79] Compile of LobbyMenu successful, but with 2 Warning(s) [in 92 ms] (/Game/UI/Lobby/LobbyMenu.LobbyMenu)
+[2018.08.21-01.23.00:914][627]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/UI/Lobby/LobbyMenu.uasset" SILENT=true
+[2018.08.21-01.23.00:961][627]LogSavePackage: Moving '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/LobbyMenuF0CABD1C4DE608419F90059358258107.tmp' to '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/UI/Lobby/LobbyMenu.uasset'
+[2018.08.21-01.24.03:653][462]BlueprintLog: New page: Compile LobbyMenu
+[2018.08.21-01.24.03:696][462]LogBlueprint: Warning: [Compiler LobbyMenu] Input pin  My Player Image  specifying non-default value no longer exists on node  Set members in PlayerInfo . Please refresh node or reset pin to default value to remove pin.
+[2018.08.21-01.24.03:697][462]LogBlueprint: Warning: [Compiler LobbyMenu] Input pin  My Player Image  specifying non-default value no longer exists on node  Set members in PlayerInfo . Please refresh node or reset pin to default value to remove pin.
+[2018.08.21-01.24.03:745][462]LogBlueprint: Warning: [Compiler LobbyMenu] [4111.21] Compile of LobbyMenu successful, but with 2 Warning(s) [in 91 ms] (/Game/UI/Lobby/LobbyMenu.LobbyMenu)
+[2018.08.21-01.24.04:132][497]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/UI/Lobby/LobbyMenu.uasset" SILENT=true
+[2018.08.21-01.24.04:180][497]LogSavePackage: Moving '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/LobbyMenu3D1639C94A0AD05066D6088B01BE74E7.tmp' to '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/UI/Lobby/LobbyMenu.uasset'
+[2018.08.21-01.24.15:817][142]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/Lobby/ConnectedPlayer.ConnectedPlayer
+[2018.08.21-01.24.45:184][984]BlueprintLog: New page: Compile ConnectedPlayer
+[2018.08.21-01.24.45:764][ 37]LogSavePackage: Moving '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/ConnectedPlayer7034B8674D693D6949E6A5A51418752E.tmp' to '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/UI/Lobby/ConnectedPlayer.uasset'
+[2018.08.21-01.25.33:952][570]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/MainMenu' took 0.026
+[2018.08.21-01.25.33:954][570]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Lobby/LobbyMenu] ([1] browsable assets)...
+[2018.08.21-01.25.33:954][570]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Lobby/LobbyMenu]
+[2018.08.21-01.25.33:996][570]LogSavePackage: Moving '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/LobbyMenu_Auto44EF6FB3048C9F4A25CCB62AC19C2C92A.tmp' to '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto4.uasset'
+[2018.08.21-01.25.33:997][570]LogFileHelpers: Auto-saving content packages took 0.044
+[2018.08.21-01.29.09:892][913]BlueprintLog: New page: Compile LobbyMenu
+[2018.08.21-01.29.09:938][913]LogBlueprint: Warning: [Compiler LobbyMenu] Input pin  My Player Image  specifying non-default value no longer exists on node  Set members in PlayerInfo . Please refresh node or reset pin to default value to remove pin.
+[2018.08.21-01.29.09:938][913]LogBlueprint: Warning: [Compiler LobbyMenu] Input pin  My Player Image  specifying non-default value no longer exists on node  Set members in PlayerInfo . Please refresh node or reset pin to default value to remove pin.
+[2018.08.21-01.29.09:987][913]LogBlueprint: Warning: [Compiler LobbyMenu] [4417.44] Compile of LobbyMenu successful, but with 2 Warning(s) [in 95 ms] (/Game/UI/Lobby/LobbyMenu.LobbyMenu)
+[2018.08.21-01.29.10:579][971]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/UI/Lobby/LobbyMenu.uasset" SILENT=true
+[2018.08.21-01.29.10:630][971]LogSavePackage: Moving '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/LobbyMenuE3AC8EB246F8599A0C42C8A8D3DE1784.tmp' to '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/UI/Lobby/LobbyMenu.uasset'
+[2018.08.21-01.31.51:402][590]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/Lobby/GameSettings.GameSettings
+[2018.08.21-01.31.54:332][847]LogSlate: Window 'GameSettings' being destroyed
+[2018.08.21-01.32.10:253][720]BlueprintLog: New page: Compile GameSettings
+[2018.08.21-01.32.10:592][733]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/GameSettings" FILE="../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/UI/Lobby/GameSettings.uasset" SILENT=true
+[2018.08.21-01.32.10:603][733]LogSavePackage: Moving '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/GameSettingsAF1B20F840189AADCFE1C9B2E6CB92D4.tmp' to '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/UI/Lobby/GameSettings.uasset'
+[2018.08.21-01.36.42:328][705]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/MainMenu' took 0.027
+[2018.08.21-01.36.42:330][705]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/Lobby/LobbyMenu] ([1] browsable assets)...
+[2018.08.21-01.36.42:330][705]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Lobby/LobbyMenu]
+[2018.08.21-01.36.42:379][705]LogSavePackage: Moving '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/LobbyMenu_Auto5F7BCBAF3486041600C634E94097D4499.tmp' to '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/Autosaves/Game/UI/Lobby/LobbyMenu_Auto5.uasset'
+[2018.08.21-01.36.42:380][705]LogFileHelpers: Auto-saving content packages took 0.052
+[2018.08.21-01.40.49:131][613]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/UI/Lobby/LobbyMenu.uasset" SILENT=true
+[2018.08.21-01.40.49:183][613]LogSavePackage: Moving '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/LobbyMenu9A6470344DB5700EEE43D6B306CA824C.tmp' to '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/UI/Lobby/LobbyMenu.uasset'
+[2018.08.21-01.40.49:535][653]BlueprintLog: New page: Compile LobbyMenu
+[2018.08.21-01.40.49:588][653]LogBlueprint: Warning: [Compiler LobbyMenu] Input pin  My Player Image  specifying non-default value no longer exists on node  Set members in PlayerInfo . Please refresh node or reset pin to default value to remove pin.
+[2018.08.21-01.40.49:588][653]LogBlueprint: Warning: [Compiler LobbyMenu] Input pin  My Player Image  specifying non-default value no longer exists on node  Set members in PlayerInfo . Please refresh node or reset pin to default value to remove pin.
+[2018.08.21-01.40.49:641][653]LogBlueprint: Warning: [Compiler LobbyMenu] [5117.09] Compile of LobbyMenu successful, but with 2 Warning(s) [in 105 ms] (/Game/UI/Lobby/LobbyMenu.LobbyMenu)
+[2018.08.21-01.42.04:290][772]BlueprintLog: New page: Compile LobbyMenu
+[2018.08.21-01.42.04:331][772]LogBlueprint: Warning: [Compiler LobbyMenu] Input pin  My Player Image  specifying non-default value no longer exists on node  Set members in PlayerInfo . Please refresh node or reset pin to default value to remove pin.
+[2018.08.21-01.42.04:331][772]LogBlueprint: Warning: [Compiler LobbyMenu] Input pin  My Player Image  specifying non-default value no longer exists on node  Set members in PlayerInfo . Please refresh node or reset pin to default value to remove pin.
+[2018.08.21-01.42.04:470][772]LogBlueprint: Warning: [Compiler LobbyMenu] [5191.92] Compile of LobbyMenu successful, but with 2 Warning(s) [in 180 ms] (/Game/UI/Lobby/LobbyMenu.LobbyMenu)
+[2018.08.21-01.42.04:955][816]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/UI/Lobby/LobbyMenu.uasset" SILENT=true
+[2018.08.21-01.42.05:009][816]LogSavePackage: Moving '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/LobbyMenu3B1D1B6C4811CBFA8F762D84E6500620.tmp' to '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/UI/Lobby/LobbyMenu.uasset'
+[2018.08.21-01.43.52:435][964]LogEditorTransaction: Undo Promote To Variable
+[2018.08.21-01.45.02:900][627]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.08.21-01.45.04:611][828]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.08.21-01.45.47:511][891]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/UI/Lobby/LobbyMenu.uasset" SILENT=true
+[2018.08.21-01.45.47:573][891]LogSavePackage: Moving '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/LobbyMenu3B04960841AE2520C8D919A6EE4493E6.tmp' to '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/UI/Lobby/LobbyMenu.uasset'
+[2018.08.21-01.45.47:753][910]BlueprintLog: New page: Compile LobbyMenu
+[2018.08.21-01.45.47:804][910]LogBlueprint: Warning: [Compiler LobbyMenu] Input pin  My Player Image  specifying non-default value no longer exists on node  Set members in PlayerInfo . Please refresh node or reset pin to default value to remove pin.
+[2018.08.21-01.45.47:804][910]LogBlueprint: Warning: [Compiler LobbyMenu] Input pin  My Player Image  specifying non-default value no longer exists on node  Set members in PlayerInfo . Please refresh node or reset pin to default value to remove pin.
+[2018.08.21-01.45.47:862][910]LogBlueprint: Warning: [Compiler LobbyMenu] [5415.29] Compile of LobbyMenu successful, but with 2 Warning(s) [in 109 ms] (/Game/UI/Lobby/LobbyMenu.LobbyMenu)
+[2018.08.21-01.45.48:268][948]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/UI/Lobby/LobbyMenu.uasset" SILENT=true
+[2018.08.21-01.45.48:329][948]LogSavePackage: Moving '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/LobbyMenuDAF66F264418625DD461E495586C0885.tmp' to '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/UI/Lobby/LobbyMenu.uasset'
+[2018.08.21-01.45.52:744][468]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/UI/Lobby/LobbyMenu.uasset" SILENT=true
+[2018.08.21-01.45.52:805][468]LogSavePackage: Moving '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/LobbyMenu7C97595D4BD6D806BDEC00851F1ACCEC.tmp' to '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/UI/Lobby/LobbyMenu.uasset'
+[2018.08.21-01.45.57:033][970]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.20/Engine/Content: 'C:/Program Files/Epic Games/UE_4.20/Engine/Content' is outside repository
+[2018.08.21-01.46.00:679][970]LogSlate: Window 'Submit Files' being destroyed
+[2018.08.21-01.46.01:045][970]LogSourceControl: commit successful: [aaron e0d4d87] update
+[2018.08.21-01.46.01:122][970]SourceControl: [aaron e0d4d87] update
+[2018.08.21-01.46.01:122][970]SourceControl:  5 files changed, 0 insertions(+), 0 deletions(-)
+[2018.08.21-01.46.01:122][970]SourceControl:  rewrite CS205/Content/Blueprints/Lobby/LobbyGM.uasset (90%)
+[2018.08.21-01.46.01:122][970]SourceControl:  rewrite CS205/Content/Blueprints/Lobby/LobbyPC.uasset (73%)
+[2018.08.21-01.46.01:122][970]SourceControl:  rewrite CS205/Content/UI/Lobby/ConnectedPlayer.uasset (89%)
+[2018.08.21-01.46.01:122][970]SourceControl:  rewrite CS205/Content/UI/Lobby/GameSettings.uasset (74%)
+[2018.08.21-01.46.01:122][970]SourceControl:  rewrite CS205/Content/UI/Lobby/LobbyMenu.uasset (89%)
+[2018.08.21-01.46.01:129][970]SourceControl: Commited [aaron e0d4d87] update.
+[2018.08.21-01.46.59:394][ 99]LogHttp: Warning: 00000231A4E74E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.08.21-01.46.59:394][ 99]LogHttp: Warning: 00000231A4E74E00: libcurl info message cache 0 (Connection 48 seems to be dead!)
+[2018.08.21-01.46.59:395][ 99]LogHttp: Warning: 00000231A4E74E00: libcurl info message cache 1 (Closing connection 48)
+[2018.08.21-01.46.59:395][ 99]LogHttp: Warning: 00000231A4E74E00: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2018.08.21-01.46.59:395][ 99]LogHttp: Warning: 00000231A4E74E00: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.08.21-01.46.59:395][ 99]LogHttp: Warning: 00000231A4E74E00: libcurl info message cache 4 (Closing connection 49)
+[2018.08.21-01.48.04:215][620]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Lobby/LobbyPC.LobbyPC
+[2018.08.21-01.49.34:138][308]BlueprintLog: New page: Compile LobbyPC
+[2018.08.21-01.49.34:197][308]LogBlueprint: Warning: [Compiler LobbyMenu] Input pin  My Player Image  specifying non-default value no longer exists on node  Set members in PlayerInfo . Please refresh node or reset pin to default value to remove pin.
+[2018.08.21-01.49.34:197][308]LogBlueprint: Warning: [Compiler LobbyMenu] Input pin  My Player Image  specifying non-default value no longer exists on node  Set members in PlayerInfo . Please refresh node or reset pin to default value to remove pin.
+[2018.08.21-01.49.34:212][308]LogBlueprint: Warning: [Compiler LobbyMenu] [5641.63] Compile of LobbyMenu successful, but with 2 Warning(s) [in 63 ms] (/Game/UI/Lobby/LobbyMenu.LobbyMenu)
+[2018.08.21-01.49.37:922][719]LogSavePackage: Moving '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/LobbyPC42100A1F4644A2BCFE1CA39BB9A513E4.tmp' to '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/Blueprints/Lobby/LobbyPC.uasset'
+[2018.08.21-01.50.55:183][875]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/MainMenu' took 0.031
+[2018.08.21-01.50.55:184][875]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Lobby/LobbyGM] ([1] browsable assets)...
+[2018.08.21-01.50.55:184][875]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Lobby/LobbyGM]
+[2018.08.21-01.50.55:197][875]LogSavePackage: Moving '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/LobbyGM_Auto69012651F439E1CC5C31D5398326AB69A.tmp' to '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/Autosaves/Game/Blueprints/Lobby/LobbyGM_Auto6.uasset'
+[2018.08.21-01.50.55:199][875]LogFileHelpers: Auto-saving content packages took 0.015
+[2018.08.21-04.19.03:845][871]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/MainMenu' took 0.035
+[2018.08.21-04.19.03:846][871]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Lobby/LobbyGM] ([1] browsable assets)...
+[2018.08.21-04.19.03:846][871]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Lobby/LobbyGM]
+[2018.08.21-04.19.03:867][871]LogSavePackage: Moving '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/LobbyGM_Auto7DE08EA454613E0CB44166394A8FEF446.tmp' to '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/Autosaves/Game/Blueprints/Lobby/LobbyGM_Auto7.uasset'
+[2018.08.21-04.19.03:868][871]LogFileHelpers: Auto-saving content packages took 0.022
+[2018.08.21-04.29.04:520][ 74]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/MainMenu' took 0.035
+[2018.08.21-04.29.04:522][ 74]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Lobby/LobbyGM] ([1] browsable assets)...
+[2018.08.21-04.29.04:522][ 74]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Lobby/LobbyGM]
+[2018.08.21-04.29.04:539][ 74]LogSavePackage: Moving '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/LobbyGM_Auto802C569E04CB5E28418CDE1A720ECC4F7.tmp' to '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/Autosaves/Game/Blueprints/Lobby/LobbyGM_Auto8.uasset'
+[2018.08.21-04.29.04:540][ 74]LogFileHelpers: Auto-saving content packages took 0.020
+[2018.08.21-04.39.05:103][266]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/MainMenu' took 0.036
+[2018.08.21-04.39.05:105][266]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Lobby/LobbyGM] ([1] browsable assets)...
+[2018.08.21-04.39.05:105][266]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Lobby/LobbyGM]
+[2018.08.21-04.39.05:125][266]LogSavePackage: Moving '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/LobbyGM_Auto9AF88F61B48B85C46FB89F186996B5F64.tmp' to '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/Autosaves/Game/Blueprints/Lobby/LobbyGM_Auto9.uasset'
+[2018.08.21-04.39.05:127][266]LogFileHelpers: Auto-saving content packages took 0.022
+[2018.08.21-04.52.04:589][906]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.08.21-04.52.57:069][606]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/MainMenu' took 0.035
+[2018.08.21-04.52.57:071][606]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Lobby/LobbyGM] ([1] browsable assets)...
+[2018.08.21-04.52.57:072][606]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Lobby/LobbyGM]
+[2018.08.21-04.52.57:090][606]LogSavePackage: Moving '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/LobbyGM_Auto03C556F2E49862EF0708197BFB46BF05C.tmp' to '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/Autosaves/Game/Blueprints/Lobby/LobbyGM_Auto0.uasset'
+[2018.08.21-04.52.57:091][606]LogFileHelpers: Auto-saving content packages took 0.020
+[2018.08.21-05.02.57:416][293]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/MainMenu' took 0.035
+[2018.08.21-05.02.57:418][293]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Lobby/LobbyGM] ([1] browsable assets)...
+[2018.08.21-05.02.57:418][293]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Lobby/LobbyGM]
+[2018.08.21-05.02.57:441][293]LogSavePackage: Moving '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/LobbyGM_Auto11A1A98DD491BFA4E6A4AB0A398AAFF87.tmp' to '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/Autosaves/Game/Blueprints/Lobby/LobbyGM_Auto1.uasset'
+[2018.08.21-05.02.57:443][293]LogFileHelpers: Auto-saving content packages took 0.026
+[2018.08.21-05.20.22:341][417]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.08.21-05.20.22:341][417]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.08.21-05.24.47:036][291]LogSlate: Window 'Delete Variable' being destroyed
+[2018.08.21-05.24.48:906][365]LogSlate: Window 'Delete Variable' being destroyed
+[2018.08.21-05.24.50:468][463]LogSlate: Window 'Delete Variable' being destroyed
+[2018.08.21-05.26.20:805][539]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/MainMenu' took 0.033
+[2018.08.21-05.26.20:806][539]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Lobby/LobbyGM] ([1] browsable assets)...
+[2018.08.21-05.26.20:806][539]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Lobby/LobbyGM]
+[2018.08.21-05.26.20:829][539]LogSavePackage: Moving '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/LobbyGM_Auto2FFDFD8D447A03CAFA447E18ED1A74460.tmp' to '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/Autosaves/Game/Blueprints/Lobby/LobbyGM_Auto2.uasset'
+[2018.08.21-05.26.20:830][539]LogFileHelpers: Auto-saving content packages took 0.024
+[2018.08.21-05.28.45:401][582]BlueprintLog: New page: Compile LobbyGM
+[2018.08.21-05.28.46:122][631]LogSavePackage: Moving '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/LobbyGM6EB1A8564FEE9290897536AF6D6E781A.tmp' to '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/Blueprints/Lobby/LobbyGM.uasset'
+[2018.08.21-05.36.20:945][599]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/MainMenu' took 0.028
+[2018.08.21-05.36.20:947][599]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Lobby/LobbyGM] ([1] browsable assets)...
+[2018.08.21-05.36.20:947][599]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Lobby/LobbyGM]
+[2018.08.21-05.36.20:972][599]LogSavePackage: Moving '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/LobbyGM_Auto39F9FA8E94961404789BD1AB9B5CBAFC3.tmp' to '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/Autosaves/Game/Blueprints/Lobby/LobbyGM_Auto3.uasset'
+[2018.08.21-05.36.20:973][599]LogFileHelpers: Auto-saving content packages took 0.027
+[2018.08.21-05.46.20:861][378]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/MainMenu' took 0.025
+[2018.08.21-05.46.20:863][378]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Lobby/LobbyGM] ([1] browsable assets)...
+[2018.08.21-05.46.20:863][378]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Lobby/LobbyGM]
+[2018.08.21-05.46.20:888][378]LogSavePackage: Moving '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/LobbyGM_Auto450E6DC6A4337C5DB1660AF8864B3DA8E.tmp' to '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/Autosaves/Game/Blueprints/Lobby/LobbyGM_Auto4.uasset'
+[2018.08.21-05.46.20:889][378]LogFileHelpers: Auto-saving content packages took 0.027
+[2018.08.21-05.55.35:571][755]BlueprintLog: New page: Compile LobbyGM
+[2018.08.21-05.55.36:179][792]LogSavePackage: Moving '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Saved/LobbyGMB857C4C54645BEB2A53E309D5DD897DB.tmp' to '../../../../../../Users/ames/Desktop/CS205-Fingureblaster/Respos/FingerBlasters/CS205/Content/Blueprints/Lobby/LobbyGM.uasset'
+[2018.08.21-05.55.38:556][ 44]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.08.21-05.55.38:606][ 44]LogSlate: Window 'CS205 - Unreal Editor' being destroyed
+[2018.08.21-05.55.38:792][ 45]Cmd: QUIT_EDITOR
+[2018.08.21-05.55.38:844][ 45]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.08.21-05.55.38:855][ 45]LogExit: Preparing to exit.
+[2018.08.21-05.55.39:255][ 45]LogExit: Editor shut down
+[2018.08.21-05.55.39:255][ 45]LogExit: Transaction tracking system shut down
+[2018.08.21-05.55.39:792][ 45]LogExit: Object subsystem successfully closed.
+[2018.08.21-05.55.39:823][ 45]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.08.21-05.55.39:826][ 45]LogD3D11RHI: Shutdown
+[2018.08.21-05.55.39:826][ 45]LogD3D11RHI: CleanupD3DDevice
+[2018.08.21-05.55.39:830][ 45]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.08.21-05.55.39:879][ 45]LogModuleManager: Shutting down and abandoning module SequencerWidgets (615)
+[2018.08.21-05.55.39:879][ 45]LogModuleManager: Shutting down and abandoning module BlueprintGraph (613)
+[2018.08.21-05.55.39:880][ 45]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (611)
+[2018.08.21-05.55.39:880][ 45]LogModuleManager: Shutting down and abandoning module SceneOutliner (609)
+[2018.08.21-05.55.39:880][ 45]LogModuleManager: Shutting down and abandoning module AddContentDialog (607)
+[2018.08.21-05.55.39:881][ 45]LogModuleManager: Shutting down and abandoning module WidgetCarousel (606)
+[2018.08.21-05.55.39:881][ 45]LogModuleManager: Shutting down and abandoning module EditorWidgets (603)
+[2018.08.21-05.55.39:881][ 45]LogModuleManager: Shutting down and abandoning module CollectionManager (601)
+[2018.08.21-05.55.39:882][ 45]LogModuleManager: Shutting down and abandoning module StatsViewer (599)
+[2018.08.21-05.55.39:882][ 45]LogModuleManager: Shutting down and abandoning module FoliageEdit (597)
+[2018.08.21-05.55.39:882][ 45]LogModuleManager: Shutting down and abandoning module LandscapeEditor (595)
+[2018.08.21-05.55.39:884][ 45]LogModuleManager: Shutting down and abandoning module MeshPaintMode (593)
+[2018.08.21-05.55.39:884][ 45]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (591)
+[2018.08.21-05.55.39:884][ 45]LogModuleManager: Shutting down and abandoning module ActorPickerMode (589)
+[2018.08.21-05.55.39:884][ 45]LogModuleManager: Shutting down and abandoning module GeometryMode (587)
+[2018.08.21-05.55.39:884][ 45]LogModuleManager: Shutting down and abandoning module TextureAlignMode (585)
+[2018.08.21-05.55.39:884][ 45]LogModuleManager: Shutting down and abandoning module BspMode (583)
+[2018.08.21-05.55.39:884][ 45]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (581)
+[2018.08.21-05.55.39:885][ 45]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (579)
+[2018.08.21-05.55.39:885][ 45]LogModuleManager: Shutting down and abandoning module AutomationWorker (577)
+[2018.08.21-05.55.39:885][ 45]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (575)
+[2018.08.21-05.55.39:885][ 45]LogModuleManager: Shutting down and abandoning module SequenceRecorder (574)
+[2018.08.21-05.55.39:885][ 45]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (571)
+[2018.08.21-05.55.39:886][ 45]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (569)
+[2018.08.21-05.55.39:887][ 45]LogModuleManager: Shutting down and abandoning module PlacementMode (568)
+[2018.08.21-05.55.39:887][ 45]LogModuleManager: Shutting down and abandoning module MaterialEditor (567)
+[2018.08.21-05.55.39:889][ 45]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (563)
+[2018.08.21-05.55.39:889][ 45]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (561)
+[2018.08.21-05.55.39:889][ 45]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (559)
+[2018.08.21-05.55.39:890][ 45]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (557)
+[2018.08.21-05.55.39:890][ 45]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (555)
+[2018.08.21-05.55.39:890][ 45]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (553)
+[2018.08.21-05.55.39:890][ 45]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (551)
+[2018.08.21-05.55.39:890][ 45]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (549)
+[2018.08.21-05.55.39:890][ 45]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (547)
+[2018.08.21-05.55.39:890][ 45]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (545)
+[2018.08.21-05.55.39:890][ 45]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (543)
+[2018.08.21-05.55.39:890][ 45]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (541)
+[2018.08.21-05.55.39:890][ 45]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (539)
+[2018.08.21-05.55.39:890][ 45]LogModuleManager: Shutting down and abandoning module CharacterAI (537)
+[2018.08.21-05.55.39:890][ 45]LogModuleManager: Shutting down and abandoning module SmartSnapping (535)
+[2018.08.21-05.55.39:890][ 45]LogModuleManager: Shutting down and abandoning module SessionServices (533)
+[2018.08.21-05.55.39:890][ 45]LogModuleManager: Shutting down and abandoning module ViewportSnapping (531)
+[2018.08.21-05.55.39:890][ 45]LogModuleManager: Shutting down and abandoning module ViewportInteraction (529)
+[2018.08.21-05.55.39:890][ 45]LogModuleManager: Shutting down and abandoning module ClothPainter (527)
+[2018.08.21-05.55.39:891][ 45]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (526)
+[2018.08.21-05.55.39:892][ 45]LogModuleManager: Shutting down and abandoning module LogVisualizer (523)
+[2018.08.21-05.55.39:894][ 45]LogModuleManager: Shutting down and abandoning module IntroTutorials (521)
+[2018.08.21-05.55.39:894][ 45]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (520)
+[2018.08.21-05.55.39:895][ 45]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (517)
+[2018.08.21-05.55.39:895][ 45]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (515)
+[2018.08.21-05.55.39:896][ 45]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (513)
+[2018.08.21-05.55.39:896][ 45]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (511)
+[2018.08.21-05.55.39:896][ 45]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (510)
+[2018.08.21-05.55.41:096][ 45]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (507)
+[2018.08.21-05.55.41:096][ 45]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (505)
+[2018.08.21-05.55.41:096][ 45]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (503)
+[2018.08.21-05.55.41:096][ 45]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (501)
+[2018.08.21-05.55.41:096][ 45]LogModuleManager: Shutting down and abandoning module InputBindingEditor (499)
+[2018.08.21-05.55.41:097][ 45]LogModuleManager: Shutting down and abandoning module MergeActors (497)
+[2018.08.21-05.55.41:097][ 45]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (495)
+[2018.08.21-05.55.41:098][ 45]LogModuleManager: Shutting down and abandoning module LocalizationService (494)
+[2018.08.21-05.55.41:099][ 45]LogModuleManager: Shutting down and abandoning module HardwareTargeting (491)
+[2018.08.21-05.55.41:099][ 45]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (489)
+[2018.08.21-05.55.41:099][ 45]LogModuleManager: Shutting down and abandoning module UndoHistory (487)
+[2018.08.21-05.55.41:099][ 45]LogModuleManager: Shutting down and abandoning module XmlParser (485)
+[2018.08.21-05.55.41:099][ 45]LogModuleManager: Shutting down and abandoning module Blutility (483)
+[2018.08.21-05.55.41:099][ 45]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (481)
+[2018.08.21-05.55.41:099][ 45]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (480)
+[2018.08.21-05.55.41:099][ 45]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (477)
+[2018.08.21-05.55.41:099][ 45]LogModuleManager: Shutting down and abandoning module SettingsEditor (475)
+[2018.08.21-05.55.41:100][ 45]LogModuleManager: Shutting down and abandoning module ProjectLauncher (473)
+[2018.08.21-05.55.41:101][ 45]LogModuleManager: Shutting down and abandoning module SessionFrontend (471)
+[2018.08.21-05.55.41:101][ 45]LogModuleManager: Shutting down and abandoning module ProfilerClient (469)
+[2018.08.21-05.55.41:102][ 45]LogModuleManager: Shutting down and abandoning module DeviceManager (467)
+[2018.08.21-05.55.41:102][ 45]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (466)
+[2018.08.21-05.55.41:157][ 45]LogModuleManager: Shutting down and abandoning module AutomationController (463)
+[2018.08.21-05.55.41:157][ 45]LogModuleManager: Shutting down and abandoning module AutomationWindow (461)
+[2018.08.21-05.55.41:158][ 45]LogModuleManager: Shutting down and abandoning module Layers (459)
+[2018.08.21-05.55.41:160][ 45]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (457)
+[2018.08.21-05.55.41:160][ 45]LogModuleManager: Shutting down and abandoning module DetailCustomizations (455)
+[2018.08.21-05.55.41:160][ 45]LogModuleManager: Shutting down and abandoning module PackagesDialog (453)
+[2018.08.21-05.55.41:160][ 45]LogModuleManager: Shutting down and abandoning module Persona (451)
+[2018.08.21-05.55.41:161][ 45]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (450)
+[2018.08.21-05.55.41:161][ 45]LogModuleManager: Shutting down and abandoning module AnimGraph (448)
+[2018.08.21-05.55.41:161][ 45]LogModuleManager: Shutting down and abandoning module Kismet (445)
+[2018.08.21-05.55.41:167][ 45]LogModuleManager: Shutting down and abandoning module GraphEditor (443)
+[2018.08.21-05.55.41:167][ 45]LogModuleManager: Shutting down and abandoning module ClassViewer (441)
+[2018.08.21-05.55.41:168][ 45]LogModuleManager: Shutting down and abandoning module Toolbox (439)
+[2018.08.21-05.55.41:168][ 45]LogModuleManager: Shutting down and abandoning module ModuleUI (437)
+[2018.08.21-05.55.41:168][ 45]LogModuleManager: Shutting down and abandoning module MovieSceneTools (435)
+[2018.08.21-05.55.41:169][ 45]LogModuleManager: Shutting down and abandoning module OutputLog (433)
+[2018.08.21-05.55.41:169][ 45]LogModuleManager: Shutting down and abandoning module GammaUI (431)
+[2018.08.21-05.55.41:169][ 45]LogModuleManager: Shutting down and abandoning module Documentation (429)
+[2018.08.21-05.55.41:169][ 45]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (427)
+[2018.08.21-05.55.41:169][ 45]LogModuleManager: Shutting down and abandoning module MovieScene (425)
+[2018.08.21-05.55.41:169][ 45]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (423)
+[2018.08.21-05.55.41:169][ 45]LogModuleManager: Shutting down and abandoning module LauncherPlatform (421)
+[2018.08.21-05.55.41:169][ 45]LogModuleManager: Shutting down and abandoning module AnalyticsET (419)
+[2018.08.21-05.55.41:169][ 45]LogModuleManager: Shutting down and abandoning module PortalServices (417)
+[2018.08.21-05.55.41:169][ 45]LogModuleManager: Shutting down and abandoning module PortalRpc (415)
+[2018.08.21-05.55.41:169][ 45]LogModuleManager: Shutting down and abandoning module MessagingRpc (413)
+[2018.08.21-05.55.41:169][ 45]LogModuleManager: Shutting down and abandoning module AIModule (411)
+[2018.08.21-05.55.41:170][ 45]LogModuleManager: Shutting down and abandoning module GameplayDebugger (410)
+[2018.08.21-05.55.41:170][ 45]LogModuleManager: Shutting down and abandoning module AITestSuite (408)
+[2018.08.21-05.55.41:170][ 45]LogModuleManager: Shutting down and abandoning module NavigationSystem (406)
+[2018.08.21-05.55.41:170][ 45]LogModuleManager: Shutting down and abandoning module DesktopPlatform (403)
+[2018.08.21-05.55.41:170][ 45]LogModuleManager: Shutting down and abandoning module ProfilerService (401)
+[2018.08.21-05.55.41:240][ 45]LogModuleManager: Shutting down and abandoning module TaskGraph (399)
+[2018.08.21-05.55.41:241][ 45]LogModuleManager: Shutting down and abandoning module SteamVRController (397)
+[2018.08.21-05.55.41:241][ 45]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (395)
+[2018.08.21-05.55.41:241][ 45]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (393)
+[2018.08.21-05.55.41:241][ 45]LogModuleManager: Shutting down and abandoning module OculusInput (391)
+[2018.08.21-05.55.41:241][ 45]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (389)
+[2018.08.21-05.55.41:241][ 45]LogModuleManager: Shutting down and abandoning module EditableMesh (387)
+[2018.08.21-05.55.41:242][ 45]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (385)
+[2018.08.21-05.55.41:242][ 45]LogModuleManager: Shutting down and abandoning module CableComponent (383)
+[2018.08.21-05.55.41:242][ 45]LogModuleManager: Shutting down and abandoning module AudioCapture (381)
+[2018.08.21-05.55.41:242][ 45]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (379)
+[2018.08.21-05.55.41:242][ 45]LogModuleManager: Shutting down and abandoning module AndroidPermission (377)
+[2018.08.21-05.55.41:242][ 45]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (375)
+[2018.08.21-05.55.41:242][ 45]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (373)
+[2018.08.21-05.55.41:243][ 45]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (371)
+[2018.08.21-05.55.41:243][ 45]LogModuleManager: Shutting down and abandoning module MediaCompositing (369)
+[2018.08.21-05.55.41:243][ 45]LogModuleManager: Shutting down and abandoning module LinearTimecode (367)
+[2018.08.21-05.55.41:243][ 45]LogModuleManager: Shutting down and abandoning module ImgMedia (365)
+[2018.08.21-05.55.41:246][ 45]LogModuleManager: Shutting down and abandoning module HTML5Networking (363)
+[2018.08.21-05.55.41:246][ 45]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (361)
+[2018.08.21-05.55.41:246][ 45]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (359)
+[2018.08.21-05.55.41:246][ 45]LogModuleManager: Shutting down and abandoning module BackChannel (357)
+[2018.08.21-05.55.41:246][ 45]LogModuleManager: Shutting down and abandoning module AppleVision (355)
+[2018.08.21-05.55.41:246][ 45]LogModuleManager: Shutting down and abandoning module AppleImageUtils (353)
+[2018.08.21-05.55.41:246][ 45]LogModuleManager: Shutting down and abandoning module AlembicImporter (351)
+[2018.08.21-05.55.41:246][ 45]LogModuleManager: Shutting down and abandoning module AlembicLibrary (350)
+[2018.08.21-05.55.41:246][ 45]LogModuleManager: Shutting down and abandoning module GeometryCache (349)
+[2018.08.21-05.55.41:246][ 45]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (348)
+[2018.08.21-05.55.41:246][ 45]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (343)
+[2018.08.21-05.55.41:247][ 45]LogModuleManager: Shutting down and abandoning module DatasmithContent (341)
+[2018.08.21-05.55.41:247][ 45]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (339)
+[2018.08.21-05.55.41:247][ 45]LogModuleManager: Shutting down and abandoning module PluginBrowser (337)
+[2018.08.21-05.55.41:249][ 45]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (335)
+[2018.08.21-05.55.41:249][ 45]LogModuleManager: Shutting down and abandoning module PolygonModeling (333)
+[2018.08.21-05.55.41:249][ 45]LogModuleManager: Shutting down and abandoning module MeshEditor (331)
+[2018.08.21-05.55.41:249][ 45]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (329)
+[2018.08.21-05.55.41:250][ 45]LogModuleManager: Shutting down and abandoning module CryptoKeys (327)
+[2018.08.21-05.55.41:250][ 45]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (325)
+[2018.08.21-05.55.41:250][ 45]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (323)
+[2018.08.21-05.55.41:250][ 45]LogModuleManager: Shutting down and abandoning module UObjectPlugin (321)
+[2018.08.21-05.55.41:250][ 45]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (319)
+[2018.08.21-05.55.41:250][ 45]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (317)
+[2018.08.21-05.55.41:251][ 45]LogModuleManager: Shutting down and abandoning module GitSourceControl (315)
+[2018.08.21-05.55.41:251][ 45]LogModuleManager: Shutting down and abandoning module SourceControl (314)
+[2018.08.21-05.55.41:252][ 45]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (311)
+[2018.08.21-05.55.41:252][ 45]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (309)
+[2018.08.21-05.55.41:252][ 45]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (307)
+[2018.08.21-05.55.41:252][ 45]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (305)
+[2018.08.21-05.55.41:252][ 45]LogModuleManager: Shutting down and abandoning module Paper2DEditor (303)
+[2018.08.21-05.55.41:253][ 45]LogModuleManager: Shutting down and abandoning module MeshPaint (302)
+[2018.08.21-05.55.41:253][ 45]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (299)
+[2018.08.21-05.55.41:253][ 45]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (297)
+[2018.08.21-05.55.41:253][ 45]LogModuleManager: Shutting down and abandoning module PhysXVehicles (295)
+[2018.08.21-05.55.41:253][ 45]LogModuleManager: Shutting down and abandoning module OculusEditor (293)
+[2018.08.21-05.55.41:254][ 45]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (291)
+[2018.08.21-05.55.41:254][ 45]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (289)
+[2018.08.21-05.55.41:254][ 45]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (287)
+[2018.08.21-05.55.41:254][ 45]LogModuleManager: Shutting down and abandoning module ActorSequence (285)
+[2018.08.21-05.55.41:254][ 45]LogModuleManager: Shutting down and abandoning module UdpMessaging (283)
+[2018.08.21-05.55.41:355][ 45]LogModuleManager: Shutting down and abandoning module TcpMessaging (281)
+[2018.08.21-05.55.41:457][ 45]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (279)
+[2018.08.21-05.55.41:457][ 45]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (277)
+[2018.08.21-05.55.41:457][ 45]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (275)
+[2018.08.21-05.55.41:457][ 45]LogModuleManager: Shutting down and abandoning module FacialAnimation (273)
+[2018.08.21-05.55.41:457][ 45]LogModuleManager: Shutting down and abandoning module DataValidation (271)
+[2018.08.21-05.55.41:457][ 45]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (269)
+[2018.08.21-05.55.41:458][ 45]LogModuleManager: Shutting down and abandoning module LevelEditor (268)
+[2018.08.21-05.55.41:459][ 45]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (267)
+[2018.08.21-05.55.41:459][ 45]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (265)
+[2018.08.21-05.55.41:459][ 45]LogModuleManager: Shutting down and abandoning module MainFrame (263)
+[2018.08.21-05.55.41:460][ 45]LogModuleManager: Shutting down and abandoning module HotReload (262)
+[2018.08.21-05.55.41:461][ 45]LogModuleManager: Shutting down and abandoning module ContentBrowser (258)
+[2018.08.21-05.55.41:461][ 45]LogModuleManager: Shutting down and abandoning module TreeMap (256)
+[2018.08.21-05.55.41:462][ 45]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (253)
+[2018.08.21-05.55.41:462][ 45]LogModuleManager: Shutting down and abandoning module AISupportModule (251)
+[2018.08.21-05.55.41:462][ 45]LogModuleManager: Shutting down and abandoning module Paper2D (249)
+[2018.08.21-05.55.41:462][ 45]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (247)
+[2018.08.21-05.55.41:462][ 45]LogModuleManager: Shutting down and abandoning module WmfMedia (245)
+[2018.08.21-05.55.41:464][ 45]LogModuleManager: Shutting down and abandoning module Media (244)
+[2018.08.21-05.55.41:469][ 45]LogModuleManager: Shutting down and abandoning module PacketHandler (241)
+[2018.08.21-05.55.41:469][ 45]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (239)
+[2018.08.21-05.55.41:469][ 45]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (237)
+[2018.08.21-05.55.41:470][ 45]LogModuleManager: Shutting down and abandoning module MediaAssets (235)
+[2018.08.21-05.55.41:470][ 45]LogModuleManager: Shutting down and abandoning module Overlay (233)
+[2018.08.21-05.55.41:470][ 45]LogModuleManager: Shutting down and abandoning module OverlayEditor (232)
+[2018.08.21-05.55.41:470][ 45]LogModuleManager: Shutting down and abandoning module VREditor (229)
+[2018.08.21-05.55.41:470][ 45]LogModuleManager: Shutting down and abandoning module StringTableEditor (227)
+[2018.08.21-05.55.41:471][ 45]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (225)
+[2018.08.21-05.55.41:471][ 45]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (223)
+[2018.08.21-05.55.41:473][ 45]LogModuleManager: Shutting down and abandoning module FunctionalTesting (221)
+[2018.08.21-05.55.41:473][ 45]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (219)
+[2018.08.21-05.55.41:474][ 45]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (218)
+[2018.08.21-05.55.41:474][ 45]LogModuleManager: Shutting down and abandoning module UMG (215)
+[2018.08.21-05.55.41:474][ 45]LogModuleManager: Shutting down and abandoning module UMGEditor (214)
+[2018.08.21-05.55.41:474][ 45]LogModuleManager: Shutting down and abandoning module Sequencer (213)
+[2018.08.21-05.55.41:475][ 45]LogModuleManager: Shutting down and abandoning module MessageLog (210)
+[2018.08.21-05.55.41:475][ 45]LogModuleManager: Shutting down and abandoning module SlateReflector (205)
+[2018.08.21-05.55.41:476][ 45]LogModuleManager: Shutting down and abandoning module Slate (203)
+[2018.08.21-05.55.41:476][ 45]LogModuleManager: Shutting down and abandoning module EditorStyle (201)
+[2018.08.21-05.55.41:477][ 45]LogModuleManager: Shutting down and abandoning module MRMesh (199)
+[2018.08.21-05.55.41:478][ 45]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (197)
+[2018.08.21-05.55.41:478][ 45]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (195)
+[2018.08.21-05.55.41:478][ 45]LogModuleManager: Shutting down and abandoning module XAudio2 (193)
+[2018.08.21-05.55.41:478][ 45]LogModuleManager: Shutting down and abandoning module Networking (191)
+[2018.08.21-05.55.41:478][ 45]LogModuleManager: Shutting down and abandoning module Core (189)
+[2018.08.21-05.55.41:478][ 45]LogModuleManager: Shutting down and abandoning module LevelSequence (187)
+[2018.08.21-05.55.41:478][ 45]LogModuleManager: Shutting down and abandoning module KismetCompiler (185)
+[2018.08.21-05.55.41:478][ 45]LogModuleManager: Shutting down and abandoning module MeshUtilities (183)
+[2018.08.21-05.55.41:479][ 45]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (182)
+[2018.08.21-05.55.41:479][ 45]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (181)
+[2018.08.21-05.55.41:479][ 45]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (180)
+[2018.08.21-05.55.41:480][ 45]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (178)
+[2018.08.21-05.55.41:481][ 45]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (176)
+[2018.08.21-05.55.41:481][ 45]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (174)
+[2018.08.21-05.55.41:481][ 45]LogModuleManager: Shutting down and abandoning module MaterialBaking (170)
+[2018.08.21-05.55.41:482][ 45]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2018.08.21-05.55.41:482][ 45]LogModuleManager: Shutting down and abandoning module DerivedDataCache (163)
+[2018.08.21-05.55.41:581][ 45]LogDerivedDataCache: Shutdown
+[2018.08.21-05.55.41:581][ 45]LogModuleManager: Shutting down and abandoning module XGEController (161)
+[2018.08.21-05.55.41:581][ 45]LogXGEController: Cleaning working directory: C:/Users/ames/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.08.21-05.55.41:581][ 45]LogModuleManager: Shutting down and abandoning module TargetPlatform (159)
+[2018.08.21-05.55.41:581][ 45]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (158)
+[2018.08.21-05.55.41:582][ 45]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (156)
+[2018.08.21-05.55.41:582][ 45]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (154)
+[2018.08.21-05.55.41:582][ 45]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (152)
+[2018.08.21-05.55.41:582][ 45]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (150)
+[2018.08.21-05.55.41:583][ 45]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (148)
+[2018.08.21-05.55.41:583][ 45]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (146)
+[2018.08.21-05.55.41:583][ 45]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (144)
+[2018.08.21-05.55.41:583][ 45]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (142)
+[2018.08.21-05.55.41:584][ 45]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (140)
+[2018.08.21-05.55.41:584][ 45]LogModuleManager: Shutting down and abandoning module ImageWrapper (139)
+[2018.08.21-05.55.41:584][ 45]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (136)
+[2018.08.21-05.55.41:584][ 45]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (134)
+[2018.08.21-05.55.41:584][ 45]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (132)
+[2018.08.21-05.55.41:584][ 45]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (130)
+[2018.08.21-05.55.41:584][ 45]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (128)
+[2018.08.21-05.55.41:584][ 45]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (126)
+[2018.08.21-05.55.41:584][ 45]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (124)
+[2018.08.21-05.55.41:584][ 45]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (122)
+[2018.08.21-05.55.41:584][ 45]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (120)
+[2018.08.21-05.55.41:584][ 45]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (118)
+[2018.08.21-05.55.41:585][ 45]LogModuleManager: Shutting down and abandoning module Messaging (116)
+[2018.08.21-05.55.41:585][ 45]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (114)
+[2018.08.21-05.55.41:585][ 45]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (112)
+[2018.08.21-05.55.41:585][ 45]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (110)
+[2018.08.21-05.55.41:591][ 45]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (108)
+[2018.08.21-05.55.41:591][ 45]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (106)
+[2018.08.21-05.55.41:591][ 45]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (104)
+[2018.08.21-05.55.41:591][ 45]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (102)
+[2018.08.21-05.55.41:591][ 45]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (100)
+[2018.08.21-05.55.41:591][ 45]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (98)
+[2018.08.21-05.55.41:591][ 45]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (96)
+[2018.08.21-05.55.41:591][ 45]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (94)
+[2018.08.21-05.55.41:591][ 45]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (92)
+[2018.08.21-05.55.41:591][ 45]LogModuleManager: Shutting down and abandoning module InputCore (89)
+[2018.08.21-05.55.41:591][ 45]LogModuleManager: Shutting down and abandoning module Settings (87)
+[2018.08.21-05.55.41:591][ 45]LogModuleManager: Shutting down and abandoning module PhysXCooking (85)
+[2018.08.21-05.55.41:591][ 45]LogModuleManager: Shutting down and abandoning module SteamVR (83)
+[2018.08.21-05.55.41:591][ 45]LogModuleManager: Shutting down and abandoning module OculusHMD (81)
+[2018.08.21-05.55.41:591][ 45]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (79)
+[2018.08.21-05.55.41:591][ 45]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (77)
+[2018.08.21-05.55.41:591][ 45]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2018.08.21-05.55.41:591][ 45]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (71)
+[2018.08.21-05.55.41:593][ 45]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2018.08.21-05.55.41:595][ 45]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2018.08.21-05.55.41:614][ 45]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2018.08.21-05.55.41:615][ 45]LogHttp: Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2018.08.21-05.55.41:615][ 45]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8355CBD8-4FAB-6454-C799-089D6FDD68A2%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.1-4233996%2B%2B%2BUE4%2BRelease-4.20&UserID=bfb86c0144cdfa8d48051e819cefa2ad%7Cbc15334574d94df5ba3f8e153b4c9d6c%7C6ee1bc56-865b-4470-b12f-446bfea6588d&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.08.21-05.55.41:615][ 45]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8355CBD8-4FAB-6454-C799-089D6FDD68A2%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.1-4233996%2B%2B%2BUE4%2BRelease-4.20&UserID=bfb86c0144cdfa8d48051e819cefa2ad%7Cbc15334574d94df5ba3f8e153b4c9d6c%7C6ee1bc56-865b-4470-b12f-446bfea6588d&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.08.21-05.55.41:632][ 45]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2018.08.21-05.55.41:633][ 45]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2018.08.21-05.55.41:633][ 45]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2018.08.21-05.55.41:633][ 45]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2018.08.21-05.55.41:633][ 45]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2018.08.21-05.55.41:633][ 45]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2018.08.21-05.55.41:633][ 45]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2018.08.21-05.55.41:633][ 45]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2018.08.21-05.55.41:633][ 45]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2018.08.21-05.55.41:633][ 45]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2018.08.21-05.55.41:634][ 45]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.08.21-05.55.41:634][ 45]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2018.08.21-05.55.41:634][ 45]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.08.21-05.55.41:635][ 45]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.08.21-05.55.41:635][ 45]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.08.21-05.55.41:637][ 45]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.08.21-05.55.41:637][ 45]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.08.21-05.55.41:637][ 45]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.08.21-05.55.41:637][ 45]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.08.21-05.55.41:641][ 45]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.08.21-05.55.41:641][ 45]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.08.21-05.55.41:641][ 45]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.08.21-05.55.41:642][ 45]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.08.21-05.55.41:642][ 45]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.08.21-05.55.41:642][ 45]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.08.21-05.55.41:642][ 45]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.08.21-05.55.41:642][ 45]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.08.21-05.55.41:642][ 45]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.08.21-05.55.41:642][ 45]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.08.21-05.55.41:642][ 45]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.08.21-05.55.41:649][ 45]LogExit: Exiting.
+[2018.08.21-05.55.41:658][ 45]Log file closed, 08/21/18 17:55:41
