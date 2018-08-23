@@ -1,0 +1,5 @@
+Textures used from Textures.com: https://www.textures.com/, and modified using Bitmap2Material 3.1
+
+Metal Floor 1 - https://www.textures.com/download/metalfloorsbare0016/6833
+
+Wall 1 - https://www.textures.com/download/concretestucco0134/39988?q=wall&filter=seamless
